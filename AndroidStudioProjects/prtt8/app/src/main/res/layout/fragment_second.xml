@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <EditText
+            android:text="Чебупицца"
+            android:id="@+id/food_Name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tooltipText="food_Name"
+            style="?attr/textInputOutlinedDenseStyle"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:text="Чебупицца Горячая штучка Курочка по-итальянски."
+            style="?attr/textInputOutlinedDenseStyle"
+            android:layout_marginTop="8dp"
+            android:id="@+id/food_Detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tooltipText="food_Detail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/food_Name" />
+
+        <EditText
+            android:visibility="invisible"
+            android:text="https://cdn-img.perekrestok.ru/i/400x400-fit/xdelivery/files/de/da/4bc7bdbeb1814335ced0b71b6959.jpg"
+            style="?attr/textInputOutlinedDenseStyle"
+            android:layout_marginTop="8dp"
+            android:id="@+id/food_Img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autofillHints="food_Img"
+            android:inputType="text"
+            android:tooltipText="food_Img"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/food_Detail" />
+
+        <EditText
+            android:text="Соколов Николай Николаевич"
+            style="?attr/textInputOutlinedDenseStyle"
+            android:layout_marginTop="8dp"
+            android:id="@+id/student_FIO"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autofillHints="student_FIO"
+            android:inputType="text"
+            android:tooltipText="student_FIO"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/food_Img" />
+
+        <EditText
+            android:id="@+id/student_Score"
+            style="?attr/textInputOutlinedDenseStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:autofillHints="student_Score"
+            android:inputType="text"
+            android:text="9"
+            android:tooltipText="food_Img"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/student_FIO" />
+
+        <TextView
+            android:id="@+id/ErrorTxt"
+            style="?attr/textInputOutlinedDenseStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_error"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/student_Score" />
+
+        <Button
+            android:id="@+id/PostAddBtn"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/previous"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ErrorTxt" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

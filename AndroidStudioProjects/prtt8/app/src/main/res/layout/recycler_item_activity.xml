@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recycler.RecyclerItemActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/imgItem"
+            android:layout_width="240dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/item_food_Name"
+            android:textSize="28sp"
+            style="@style/TextAppearance.Material3.LabelMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Label"
+            android:tooltipText="food_Name"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgItem"
+            app:layout_constraintVertical_bias="0.124"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <EditText
+            android:id="@+id/item_food_Detail"
+            android:text="desc"
+            android:textSize="20sp"
+            style="?attr/textInputOutlinedDenseStyle"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tooltipText="food_Detail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_food_Name" />
+
+        <TextView
+            android:id="@+id/item_food_Img"
+            android:textSize="20sp"
+            android:text="deteleLaterNaImgView"
+            style="?attr/textInputOutlinedDenseStyle"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autofillHints="food_Img"
+            android:inputType="text"
+            android:tooltipText="food_Img"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_food_Detail" />
+
+        <EditText
+            android:id="@+id/item_student_FIO"
+            android:textSize="20sp"
+            style="?attr/textInputOutlinedDenseStyle"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autofillHints="student_FIO"
+            android:inputType="text"
+            android:tooltipText="student_FIO"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_food_Img" />
+
+        <EditText
+            android:id="@+id/item_student_Score"
+            android:textSize="20sp"
+            style="?attr/textInputOutlinedDenseStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:autofillHints="student_Score"
+            android:inputType="text"
+            android:tooltipText="food_Img"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_student_FIO" />
+
+        <Button
+            android:id="@+id/EditBtn"
+            android:textSize="18sp"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Изменить"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_student_Score" />
+        <Button
+            android:id="@+id/DeleteBtn"
+            android:textSize="18sp"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Удалить"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/EditBtn" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

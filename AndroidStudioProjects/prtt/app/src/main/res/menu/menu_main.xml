@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.koliy82.prtt.MainActivity">
+    <item
+        android:id="@+id/settings_delete"
+        android:orderInCategory="100"
+        android:title="Delete All"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/settings_add"
+        android:orderInCategory="100"
+        android:title="Add All"
+        app:showAsAction="never" />
+</menu>

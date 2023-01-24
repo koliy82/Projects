@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">pr8</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Едаа</string>
+    <string name="second_fragment_label">Добавить еда</string>
+    <string name="next">Next</string>
+    <string name="previous">Добавить</string>
+</resources>

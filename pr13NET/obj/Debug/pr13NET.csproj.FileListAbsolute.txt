@@ -46,3 +46,27 @@ D:\!Koliy82\папки на рабочем\Пары\old2kurs\Основы про
 D:\!Koliy82\папки на рабочем\Пары\old2kurs\Основы программирования\repos\pr13NET\obj\Debug\pr13NET.csproj.CopyComplete
 D:\!Koliy82\папки на рабочем\Пары\old2kurs\Основы программирования\repos\pr13NET\obj\Debug\pr13NET.exe
 D:\!Koliy82\папки на рабочем\Пары\old2kurs\Основы программирования\repos\pr13NET\obj\Debug\pr13NET.pdb
+G:\GitHub\Best\pr13NET\bin\Debug\pr13NET.exe.config
+G:\GitHub\Best\pr13NET\bin\Debug\pr13NET.exe
+G:\GitHub\Best\pr13NET\bin\Debug\pr13NET.pdb
+G:\GitHub\Best\pr13NET\bin\Debug\FluentWPF.dll
+G:\GitHub\Best\pr13NET\obj\Debug\pr13NET.csproj.AssemblyReference.cache
+G:\GitHub\Best\pr13NET\obj\Debug\pr13NET.csproj.SuggestedBindingRedirects.cache
+G:\GitHub\Best\pr13NET\obj\Debug\MainWindow.baml
+G:\GitHub\Best\pr13NET\obj\Debug\MainWindow.g.cs
+G:\GitHub\Best\pr13NET\obj\Debug\Page1.g.cs
+G:\GitHub\Best\pr13NET\obj\Debug\Page2.g.cs
+G:\GitHub\Best\pr13NET\obj\Debug\Page3.g.cs
+G:\GitHub\Best\pr13NET\obj\Debug\App.g.cs
+G:\GitHub\Best\pr13NET\obj\Debug\pr13NET_MarkupCompile.cache
+G:\GitHub\Best\pr13NET\obj\Debug\pr13NET_MarkupCompile.lref
+G:\GitHub\Best\pr13NET\obj\Debug\Page1.baml
+G:\GitHub\Best\pr13NET\obj\Debug\Page2.baml
+G:\GitHub\Best\pr13NET\obj\Debug\Page3.baml
+G:\GitHub\Best\pr13NET\obj\Debug\pr13NET.g.resources
+G:\GitHub\Best\pr13NET\obj\Debug\pr13NET.Properties.Resources.resources
+G:\GitHub\Best\pr13NET\obj\Debug\pr13NET.csproj.GenerateResource.cache
+G:\GitHub\Best\pr13NET\obj\Debug\pr13NET.csproj.CoreCompileInputs.cache
+G:\GitHub\Best\pr13NET\obj\Debug\pr13NET.csproj.CopyComplete
+G:\GitHub\Best\pr13NET\obj\Debug\pr13NET.exe
+G:\GitHub\Best\pr13NET\obj\Debug\pr13NET.pdb
