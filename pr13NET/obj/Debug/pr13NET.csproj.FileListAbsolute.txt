@@ -46,3 +46,27 @@ D:\!Koliy82\папки на рабочем\Пары\old2kurs\Основы про
 D:\!Koliy82\папки на рабочем\Пары\old2kurs\Основы программирования\repos\pr13NET\obj\Debug\pr13NET.csproj.CopyComplete
 D:\!Koliy82\папки на рабочем\Пары\old2kurs\Основы программирования\repos\pr13NET\obj\Debug\pr13NET.exe
 D:\!Koliy82\папки на рабочем\Пары\old2kurs\Основы программирования\repos\pr13NET\obj\Debug\pr13NET.pdb
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\bin\Debug\pr13NET.exe.config
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\bin\Debug\pr13NET.exe
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\bin\Debug\pr13NET.pdb
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\bin\Debug\FluentWPF.dll
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\pr13NET.csproj.AssemblyReference.cache
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\pr13NET.csproj.SuggestedBindingRedirects.cache
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\MainWindow.baml
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\MainWindow.g.cs
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\Page1.g.cs
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\Page2.g.cs
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\Page3.g.cs
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\App.g.cs
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\pr13NET_MarkupCompile.cache
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\pr13NET_MarkupCompile.lref
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\Page1.baml
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\Page2.baml
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\Page3.baml
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\pr13NET.g.resources
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\pr13NET.Properties.Resources.resources
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\pr13NET.csproj.GenerateResource.cache
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\pr13NET.csproj.CoreCompileInputs.cache
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\pr13NET.csproj.CopyComplete
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\pr13NET.exe
+C:\Users\sokol\Documents\GitHub\Best\pr13NET\obj\Debug\pr13NET.pdb
