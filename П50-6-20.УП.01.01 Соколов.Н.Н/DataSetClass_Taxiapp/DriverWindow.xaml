@@ -1,0 +1,44 @@
+﻿<Window x:Class="DataSetClass_Taxiapp.DriverWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataSetClass_Taxiapp"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        ui:WindowHelper.UseModernWindowStyle="True"
+        mc:Ignorable="d"
+        Height="520" 
+        Width="540"
+        WindowStartupLocation="CenterScreen"
+        Loaded="DriverWindow_Loaded"
+        Closing="closingRequest"
+        Title="DriverWindow">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Новый заказ">
+                <ScrollViewer>
+                    <ui:SimpleStackPanel>
+                        <DataGrid IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeRows="False" Name="newOrder_dg" Height="auto" AutoGeneratingColumn="dataGridBugFix" SelectionChanged="newOrder_dg_SelectionChanged"></DataGrid>
+                        <Button Height="32" Width="181" Content="Принять заказ" Margin="5,5,0,0" Click="newOrderApply_Click"></Button>
+                        <Button VerticalAlignment="Bottom" Height="32" Width="181" Content="К авторицации" Click="toAuth_Click"  Margin="5,5,5,5"/>
+                    </ui:SimpleStackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="История">
+                <ScrollViewer>
+                    <ui:SimpleStackPanel>
+                        <DataGrid IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeRows="False" Name="HistoryDriver_dg" Height="auto" AutoGeneratingColumn="dataGridBugFix" SelectionChanged="HistoryDriver_dg_SelectionChanged"></DataGrid>
+                        <DockPanel>
+                            <Button Content="Оценить" Margin="4,4,4,0" Click="Button_Click"></Button>
+                            <TextBox VerticalAlignment="Bottom" HorizontalAlignment="Left"  Width="181" Name="SearchHistory_tb" TextChanged="SearchHistory_tb_TextChanged"></TextBox>
+
+                        </DockPanel>
+                        <Button VerticalAlignment="Bottom" Height="32" Width="181" Content="К авторицации" Click="toAuth_Click"  Margin="5,5,5,5"/>
+                    </ui:SimpleStackPanel>
+                </ScrollViewer>
+            </TabItem>
+        </TabControl>
+
+
+    </Grid>
+</Window>

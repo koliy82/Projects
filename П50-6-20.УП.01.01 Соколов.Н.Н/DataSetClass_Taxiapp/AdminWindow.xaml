@@ -1,0 +1,188 @@
+﻿<Window x:Class="DataSetClass_Taxiapp.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataSetClass_Taxiapp"
+        mc:Ignorable="d"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        ui:WindowHelper.UseModernWindowStyle="True"
+        Title="AdminWindow"
+        WindowState="Maximized"
+        Height="1000" 
+        Width="1800"
+        WindowStartupLocation="CenterScreen"
+        Loaded="AdminWindow_Loaded"
+        Closing="closingRequest">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Клиенты">
+                <ScrollViewer>
+                    <ui:SimpleStackPanel>
+                        <DataGrid IsReadOnly="True" Name="Client_dg" Height="auto" SelectionChanged="Client_dg_SelectionChanged" AutoGeneratingColumn="dataGridBugFix"></DataGrid>
+                        <Label Content="Фамилия"/>
+                        <TextBox Name="ClientLastName_tb"/>
+                        <Label Content="Имя"/>
+                        <TextBox Name="ClientName_tb"/>
+                        <Label Content="Отчество"/>
+                        <TextBox Name="ClientMiddleName_tb"/>
+                        <Label Content="Логин"/>
+                        <TextBox Name="ClientLogin_tb"/>
+                        <Label Content="Пароль"/>
+                        <TextBox Name="ClientPass_tb"/>
+                        <Label Content="Паспорт"/>
+                        <TextBox Name="ClientPassport_tb"/>
+                        <Label Content="Номер карты"/>
+                        <TextBox Name="CardNumber_tb"/>
+                        <Label Content="Срок карты"/>
+                        <TextBox Name="CardDate_tb"/>
+                        <Label Content="CVV карты"/>
+                        <TextBox Name="CardCVV_tb"/>
+                        <DockPanel>
+                            <Button Margin="5,10,0,0" Content="Сохранить" Click="Client_Save_bt_Click"/>
+                            <Button Margin="5,10,0,0" Content="Добавить" Click="Client_Add_bt_Click"/>
+                            <Button Margin="5,10,0,0" Content="Удалить" Click="Client_Del_bt_Click"/>
+                            <TextBox VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="5,10,0,0" Width="128" Name="SearchClient_tb" TextChanged="SearchClient_tb_TextChanged"></TextBox>
+                            <ComboBox VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="5,10,0,0" Width="128" SelectedIndex="0" Name="Sort_cb" SelectionChanged="Sort_cb_SelectionChanged">
+                                <ComboBoxItem>ASC</ComboBoxItem>
+                                <ComboBoxItem>DESC</ComboBoxItem>
+                            </ComboBox>
+                        </DockPanel>
+                        <Button VerticalAlignment="Bottom" Height="32" Width="128" Content="Авторизация" Click="toAuth_Click" Margin="5,5,5,5"/>
+                    </ui:SimpleStackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Водители">
+                <ScrollViewer>
+                    <ui:SimpleStackPanel>
+                        <DataGrid IsReadOnly="True" Name="Driver_dg" Height="auto" SelectionChanged="Driver_dg_SelectionChanged" AutoGeneratingColumn="dataGridBugFix"></DataGrid>
+                        <Label Content="Фамилия"/>
+                        <TextBox Name="DriverLastName_tb"/>
+                        <Label Content="Имя"/>
+                        <TextBox Name="DriverName_tb"/>
+                        <Label Content="Отчество"/>
+                        <TextBox Name="DriverMiddleName_tb"/>
+                        <Label Content="Логин"/>
+                        <TextBox Name="DriverLogin_tb"/>
+                        <Label Content="Пароль"/>
+                        <TextBox Name="DriverPass_tb"/>
+                        <Label Content="Стаж"/>
+                        <TextBox Name="DriverExp_tb"/>
+                        <Label Content="Дата рождения"/>
+                        <TextBox Name="DriverBirthDate_tb"/>
+                        <Label Content="Дата выдачи"/>
+                        <TextBox Name="DriverStartDate_tb"/>
+                        <Label Content="Дата окончания"/>
+                        <TextBox Name="DriverEndDate_tb"/>
+                        <Label Content="Кем выдан"/>
+                        <TextBox Name="Driverkv_tb"/>
+                        <Label Content="Серия и номер"/>
+                        <TextBox Name="DriverNumber_tb"/>
+                        <Label Content="Место жительства"/>
+                        <TextBox Name="DriverMestoShitelstva_tb"/>
+                        <Label Content="Категория"/>
+                        <TextBox Name="DriverCategory_tb"/>
+                        <DockPanel>
+                            <Button Margin="5,10,0,0" Content="Сохранить" Click="Driver_Save_bt_Click"/>
+                            <Button Margin="5,10,0,0" Content="Добавить" Click="Driver_Add_bt_Click"/>
+                            <Button Margin="5,10,0,0" Content="Удалить" Click="Driver_Del_bt_Click"/>
+                            <TextBox VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="5,10,0,0" Width="128" Name="SearchDriver_tb" TextChanged="SearchDriver_tb_TextChanged"></TextBox>
+                        </DockPanel>
+                        <Button VerticalAlignment="Bottom" Height="32" Width="128" Content="Авторизация" Click="toAuth_Click" Margin="5,5,5,5"/>
+                    </ui:SimpleStackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Заказы">
+                <ScrollViewer>
+                    <ui:SimpleStackPanel>
+                        <DataGrid IsReadOnly="True" Name="Order_dg" Height="auto" SelectionChanged="Order_dg_SelectionChanged" AutoGeneratingColumn="dataGridBugFix"></DataGrid>
+                        <Label Content="Дата"/>
+                        <TextBox Name="OrderDate_tb"/>
+                        <Label Content="Время"/>
+                        <TextBox Name="OrderTime_tb"/>
+                        <Label Content="Номер"/>
+                        <TextBox Name="OrderNumber_tb"/>
+                        <Label Content="Статус"/>
+                        <TextBox Name="OrderStatus_tb"/>
+                        <Label Content="Категория"/>
+                        <TextBox Name="Category_tb"/>
+                        <Label Content="Клиент"/>
+                        <TextBox Name="Client_tb"/>
+                        <Label Content="Водитель"/>
+                        <TextBox Name="Driver_tb"/>
+                        <DockPanel>
+                            <Button Margin="5,10,0,0" Content="Сохранить" Click="Order_Save_bt_Click"/>
+                            <Button Margin="5,10,0,0" Content="Добавить" Click="Order_Add_bt_Click"/>
+                            <Button Margin="5,10,0,0" Content="Удалить" Click="Order_Del_bt_Click"/>
+                            <TextBox VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="5,10,0,0" Width="128" Name="SearchOrder_tb" TextChanged="SearchOrder_tb_TextChanged"></TextBox>
+                        </DockPanel>
+                        <Button VerticalAlignment="Bottom" Height="32" Width="128" Content="Авторизация" Click="toAuth_Click" Margin="5,5,5,5"/>
+                    </ui:SimpleStackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Комментарии">
+                <ScrollViewer>
+                    <ui:SimpleStackPanel>
+                        <DataGrid IsReadOnly="True" Name="Comments_dg" Height="auto" SelectionChanged="Comments_dg_SelectionChanged" AutoGeneratingColumn="dataGridBugFix"></DataGrid>
+                        <Label Content="Комментарий"/>
+                        <TextBox Name="CommentInputText_tb"/>
+                        <Label Content="Оценка"/>
+                        <TextBox Name="CommentMark_tb"/>
+                        <Label Content="id заказа"></Label>
+                        <TextBox Name="CommentOrderID_tb"/>
+                        <DockPanel>
+                            <Button Margin="5,10,0,0" Content="Сохранить" Click="Comment_Save_bt_Click"/>
+                            <Button Margin="5,10,0,0" Content="Добавить" Click="Comment_Add_bt_Click"/>
+                            <Button Margin="5,10,0,0" Content="Удалить" Click="Comment_Del_bt_Click"/>
+                            <TextBox VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="5,10,0,0" Width="128" Name="SearchComments_tb" TextChanged="SearchComments_tb_TextChanged"></TextBox>
+                        </DockPanel>
+                        <Button VerticalAlignment="Bottom" Height="32" Width="128" Content="Авторизация" Click="toAuth_Click" Margin="5,5,5,5"/>
+                    </ui:SimpleStackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Адреса отправки">
+                <ScrollViewer>
+                    <ui:SimpleStackPanel>
+                        <DataGrid IsReadOnly="True" Name="StartPoint_dg" Height="auto" SelectionChanged="StartPoint_dg_SelectionChanged" AutoGeneratingColumn="dataGridBugFix"></DataGrid>
+                        <Label Content="Адресс"/>
+                        <TextBox Name="StartPoint_tb"/>
+                        <Label Content="Заказ ID"/>
+                        <TextBox Name="StartPointOrderID_tb"/>
+                        <DockPanel>
+                            <Button Margin="5,10,0,0" Content="Сохранить" Click="StartPoint_Save_bt_Click"/>
+                            <Button Margin="5,10,0,0" Content="Добавить" Click="StartPoint_Add_bt_Click"/>
+                            <Button Margin="5,10,0,0" Content="Удалить" Click="StartPoint_Del_bt_Click"/>
+                            <TextBox VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="5,10,0,0" Width="128" Name="SearchStartAdr_tb" TextChanged="SearchStartAdr_tb_TextChanged"></TextBox>
+                        </DockPanel>
+                        <Button VerticalAlignment="Bottom" Height="32" Width="128" Content="Авторизация" Click="toAuth_Click" Margin="5,5,5,5"/>
+                    </ui:SimpleStackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Адреса назначения">
+                <ScrollViewer>
+                    <ui:SimpleStackPanel>
+                        <DataGrid IsReadOnly="True" Name="EndPoint_dg" Height="auto" SelectionChanged="EndPoint_dg_SelectionChanged" AutoGeneratingColumn="dataGridBugFix"></DataGrid>
+                        <Label Content="Адресс"/>
+                        <TextBox Name="EndPoint_tb"/>
+                        <Label Content="Заказ ID"/>
+                        <TextBox Name="EndPointOrderID_tb"/>
+                        <DockPanel>
+                            <Button Margin="5,10,0,0" Content="Сохранить" Click="EndPoint_Save_bt_Click"/>
+                            <Button Margin="5,10,0,0" Content="Добавить" Click="EndPoint_Add_bt_Click"/>
+                            <Button Margin="5,10,0,0" Content="Удалить" Click="EndPoint_Del_bt_Click"/>
+                            <TextBox VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="5,10,0,0" Width="128" Name="SearchEndAdr_tb" TextChanged="SearchEndAdr_tb_TextChanged"></TextBox>
+                        </DockPanel>
+                        <Button VerticalAlignment="Bottom" Height="32" Width="128" Content="Авторизация" Click="toAuth_Click" Margin="5,5,5,5"/>
+                    </ui:SimpleStackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Генератор ключей">
+                <ui:SimpleStackPanel>
+                    <TextBlock Margin="0,5,0,0" Text="Количество ключей" Height="32"></TextBlock>
+                    <TextBox Margin="0,5,0,0" Name="Count_tb"></TextBox>
+                    <Button Content="Сгенерировать" VerticalAlignment="Top" Margin="0,5,0,0" Click="KeyGen_Click"></Button>
+                </ui:SimpleStackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

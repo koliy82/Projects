@@ -1,0 +1,17 @@
+C:\Users\sokol\Desktop\DircordRPC-sharp\bin\Debug\DircordRPC-sharp.exe.config
+C:\Users\sokol\Desktop\DircordRPC-sharp\bin\Debug\DircordRPC-sharp.exe
+C:\Users\sokol\Desktop\DircordRPC-sharp\bin\Debug\DircordRPC-sharp.pdb
+C:\Users\sokol\Desktop\DircordRPC-sharp\bin\Debug\DiscordRPC.dll
+C:\Users\sokol\Desktop\DircordRPC-sharp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sokol\Desktop\DircordRPC-sharp\bin\Debug\DiscordRPC.pdb
+C:\Users\sokol\Desktop\DircordRPC-sharp\bin\Debug\DiscordRPC.xml
+C:\Users\sokol\Desktop\DircordRPC-sharp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sokol\Desktop\DircordRPC-sharp\obj\Debug\DircordRPC-sharp.csproj.AssemblyReference.cache
+C:\Users\sokol\Desktop\DircordRPC-sharp\obj\Debug\DircordRPC-sharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\sokol\Desktop\DircordRPC-sharp\obj\Debug\DircordRPC-sharp.csproj.CoreCompileInputs.cache
+C:\Users\sokol\Desktop\DircordRPC-sharp\obj\Debug\DircordRPC-sharp.csproj.CopyComplete
+C:\Users\sokol\Desktop\DircordRPC-sharp\obj\Debug\DircordRPC-sharp.exe
+C:\Users\sokol\Desktop\DircordRPC-sharp\obj\Debug\DircordRPC-sharp.pdb
+C:\Users\sokol\Desktop\DircordRPC-sharp\bin\Debug\HtmlAgilityPack.dll
+C:\Users\sokol\Desktop\DircordRPC-sharp\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\sokol\Desktop\DircordRPC-sharp\bin\Debug\HtmlAgilityPack.xml

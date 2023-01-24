@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "/w5fifGunEM0ehiC1niVsikcWvq9GLvZHbs/3iJ070ow0e2g18xSj4SAgnDrse3OgPvdJE3W+dGEVM/y0A4WRg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sokol\\Documents\\GitHub\\MPTsync\\2 курс\\Практика\\П50-6-20.УП.01.01 Соколов.Н.Н\\DataSetClass_Taxiapp\\DataSetClass_Taxiapp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sokol\\.nuget\\packages\\controlzex\\5.0.1\\controlzex.5.0.1.nupkg.sha512",
+    "C:\\Users\\sokol\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\sokol\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
+    "C:\\Users\\sokol\\.nuget\\packages\\microsoft.office.interop.word\\15.0.4797.1003\\microsoft.office.interop.word.15.0.4797.1003.nupkg.sha512",
+    "C:\\Users\\sokol\\.nuget\\packages\\microsoft.visualbasic\\10.3.0\\microsoft.visualbasic.10.3.0.nupkg.sha512",
+    "C:\\Users\\sokol\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.22000.196\\microsoft.windows.sdk.contracts.10.0.22000.196.nupkg.sha512",
+    "C:\\Users\\sokol\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\sokol\\.nuget\\packages\\modernwpf.messagebox\\0.5.2\\modernwpf.messagebox.0.5.2.nupkg.sha512",
+    "C:\\Users\\sokol\\.nuget\\packages\\modernwpfui\\0.9.4\\modernwpfui.0.9.4.nupkg.sha512",
+    "C:\\Users\\sokol\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "C:\\Users\\sokol\\.nuget\\packages\\system.runtime.windowsruntime\\4.6.0\\system.runtime.windowsruntime.4.6.0.nupkg.sha512",
+    "C:\\Users\\sokol\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.6.0\\system.runtime.windowsruntime.ui.xaml.4.6.0.nupkg.sha512",
+    "C:\\Users\\sokol\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sokol\\Documents\\GitHub\\MPTsync\\2 курс\\Практика\\П50-6-20.УП.01.01 Соколов.Н.Н\\DataSetClass_Taxiapp\\DataSetClass_Taxiapp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sokol\\Documents\\GitHub\\MPTsync\\2 курс\\Практика\\П50-6-20.УП.01.01 Соколов.Н.Н\\DataSetClass_Taxiapp\\DataSetClass_Taxiapp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sokol\\Documents\\GitHub\\MPTsync\\2 курс\\Практика\\П50-6-20.УП.01.01 Соколов.Н.Н\\DataSetClass_Taxiapp\\DataSetClass_Taxiapp.csproj",
+        "projectName": "DataSetClass_Taxiapp",
+        "projectPath": "C:\\Users\\sokol\\Documents\\GitHub\\MPTsync\\2 курс\\Практика\\П50-6-20.УП.01.01 Соколов.Н.Н\\DataSetClass_Taxiapp\\DataSetClass_Taxiapp.csproj",
+        "packagesPath": "C:\\Users\\sokol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sokol\\Documents\\GitHub\\MPTsync\\2 курс\\Практика\\П50-6-20.УП.01.01 Соколов.Н.Н\\DataSetClass_Taxiapp\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sokol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "ControlzEx": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "LiveCharts": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "Microsoft.Office.Interop.Word": {
+              "target": "Package",
+              "version": "[15.0.4797.1003, )"
+            },
+            "Microsoft.VisualBasic": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Microsoft.Windows.SDK.Contracts": {
+              "target": "Package",
+              "version": "[10.0.22000.196, )"
+            },
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.39, )"
+            },
+            "ModernWpf.MessageBox": {
+              "target": "Package",
+              "version": "[0.5.2, )"
+            },
+            "ModernWpfUI": {
+              "target": "Package",
+              "version": "[0.9.4, )"
+            }
+          },
+          "imports": [
+            "uap10.0.22000"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
