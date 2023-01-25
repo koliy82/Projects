@@ -1,6 +1,5 @@
 package aboba
 
-import aboba.discord.commands.ShopDB
 import aboba.discord.events.CheckStream
 import aboba.discord.events.NightEvent
 import aboba.discord.utils.*
@@ -36,7 +35,7 @@ import kotlin.concurrent.thread
 import kotlin.math.round
 
 
-const val token = "MTA1NTM4ODQ2MzI2MTgxNDg2NA.GfBRwi.K-BzStMlOLjo8d8nyHOBYiSQn5QcHH7C1WIKA4"
+const val token = "DELETED"
 
 val event = NightEvent()
 lateinit var kordBot:Kord
@@ -76,7 +75,6 @@ object Main{
     fun startDiscord(){
         thread{
             PlayersDB.load()
-            ShopDB.load()
             MarryDB.load()
             bot(token){
                 onStart {
@@ -89,7 +87,7 @@ object Main{
                     }
                 }
                 prefix{"~"}
-                mentionEmbed { description = "<@${it.author.id}> пидарас" }
+                mentionEmbed { description = "<@${it.author.id}>" }
                 presence { playing("ABOBA inc.") }
                 configure {
                     deleteInvocation = false

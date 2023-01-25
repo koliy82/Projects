@@ -16,8 +16,7 @@ import kotlin.concurrent.thread
 
 object tgBot {
     lateinit var telegramBot: Bot
-    val tgMainToken = "1684356520:AAHpmfTBbR3rfi7jR9P2gMQgKveNaTn7f7M"
-    val tgTestToken = "5805694979:AAH9xKKWPlw2st53O8H9piOIo4UIOXqXK1o"
+    val tgMainToken = "DELETED"
     fun start(){
         thread {
             telegramBot = bot{
@@ -69,7 +68,7 @@ object tgBot {
 
                     command("браки") {
                         val list = MarryDB.getMarries()
-                        var text = "\uD83D\uDC8D БРАКИ (Пар:${list.size})\n\n"
+                        var text = "\uD83D\uDC8D БРАКИ (ПАР: ${list.size})\n\n"
                         var i = 1
                         list.forEach {
                             val user1 = bot.getChatMember(ChatId.fromId(message.chat.id), it.secondPartnerID).get().user
@@ -129,7 +128,7 @@ object tgBot {
                         }
                     }
 
-                    command("endsex"){
+                    command("endbrak"){
                         val user = message.from ?: return@command
                         val dbUser = PlayersDB.getOrCreateTelegram(user.id) ?: return@command
                         val marry = MarryDB.getOrNullMarry(dbUser)
@@ -263,7 +262,7 @@ object tgBot {
                         }
                     }
 
-                    command("gosex"){
+                    command("gobrak"){
                         val user = message.from ?: return@command
                         val msg = message.replyToMessage
                         if (msg == null) {
@@ -365,7 +364,7 @@ object tgBot {
                     //    callbackAnswerShowAlert = true
                     //) {}
 
-                    command("sexdel"){
+                    command("brakdel"){
                         try {
                             if(message.from!!.id != 725757421L) return@command
                             MarryDB.deleteById(args[0].toInt())

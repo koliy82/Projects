@@ -30,7 +30,7 @@ fun utilityCommands() = commands("Utility") {
                 kordBot.rest.channel.createMessage(channel.id){
                     embed {
                         color = Color(red = 211, green = 17, blue = 20)
-                        description = "Загружено, <@${a}>, твоя мать шлюха."
+                        description = "Загружено, <@${a}>"
                         title = "~     <:red:1059594761801048136> \n" +
                                 "     <:red:1059594761801048136> \n" +
                                 "<:gray:1059594760182038710><:red:1059594761801048136><:gray:1059594760182038710>"

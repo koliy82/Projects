@@ -1,6 +1,5 @@
 package aboba.discord.events
 
-import aboba.discord.commands.BuyerDB
 import aboba.event
 import aboba.kordBot
 import aboba.discord.utils.getCal
@@ -73,7 +72,6 @@ class NightEvent {
                             }
                         }
                         isStartGame = true
-                        BuyerDB.check()
                     }
                 }catch (ex:Exception){
                     ex.printStackTrace()
